@@ -23,8 +23,6 @@ setup(
     version='0.1.0',
     license='BSD 3-Clause License',
     description='NatNet 3 client',
-    long_description=re.compile('^.. start-badges.*^.. end-badges', re.M | re.S)
-            .sub('', read('README.rst')),
     author='Matthew Edwards',
     author_email='matthew@matthewedwards.co.nz',
     url='https://github.com/mje-nz/python_natnet',
